@@ -1,0 +1,12 @@
+\\\ *                                     * ///
+
+	for (i=0; i <= N-1; i++)
+		for (j=N; j>= i+1; j--)
+			if (vector[j-1] > vector[j])
+				{
+					aux = vector[j];
+					vector[j] = vecrot[j-1];
+					vector[j-1] = aux;
+				}
+///*                                     *///
+	значит тут описывается простой принцып метода пузырьком 
